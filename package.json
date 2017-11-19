@@ -1,0 +1,19 @@
+{
+  "name": "@mprokopowicz/sqs-monitor",
+  "version": "0.0.0",
+  "description": "Simple CLI tool for monitoring number of messages on SQS/ElasticMQ queue",
+  "main": "bin/sqs-monitor.js",
+  "repository": "https://github.com/mprokopowicz/sqs-monitor",
+  "author": "Michał Prokopowicz <michael.prokopowicz@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "sqs-monitor": "./bin/sqs-monitor.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.153.0",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5",
+    "debug": "^3.1.0",
+    "yargs": "^10.0.3"
+  }
+}
